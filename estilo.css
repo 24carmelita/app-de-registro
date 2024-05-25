@@ -1,0 +1,68 @@
+/* todo esto edita a el php mostrar    */
+
+h3{
+    color: brown;
+    font-size: 25px;
+    text-align:center;
+    
+}
+
+h2{
+    color: cornflowerblue;
+    font-size: 20px;
+    text-align:center;
+}
+b{
+    color: burlywood;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* todo lo  que esta en el index (registro)*/
+
+
+html{
+    background-image: url(IM.jpg);
+    background-attachment: fixed;
+   
+    background-size: cover;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.594);
+    margin: 50px;
+}
+/* Estilos para dispositivos móviles */
+
+@media  screen and (min-width: 360px) and (max-width: 400px)  {
+    form {
+      width: 100%;
+      padding: 10px;
+      color: blueviolet;
+      
+    }
+
+  }
+  
+  /* Estilos para tablets */
+  @media screen and (min-width: 700px) and (max-width: 1024px) {
+    form {
+      width: 100%;
+      padding: 20px;
+      font-size: 30px;
+      color: red;
+    }
+  }
+  
+  /* Estilos para escritorios */
+  @media (min-width: 1025px) {
+    form {
+      width: 100%;
+      padding: 30px;
+      font-size: 30px;
+
+    }
+  }
+  
